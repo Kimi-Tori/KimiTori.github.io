@@ -1,0 +1,29 @@
+$gold: #ebb47a;
+$white: white;
+$black: #000000;
+$blue: #074357;
+$main: hsl(102deg 53% 44%);
+$main-black: #303030;
+$hover-ico: #3d1478;
+$btn-purple: #522688;
+$bg-page: #fafdf8;
+
+/*Основные настройки */
+*{
+    outline: none !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Montserrat;
+}
+
+

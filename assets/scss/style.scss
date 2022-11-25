@@ -1,0 +1,9 @@
+/*Базовые настройки и header*/
+@import './base';
+
+
+@import './main/main'; // main window
+@import './main/services'; // career page
+@import './main/blog'; // blog page
+@import './header/header.scss'; // header
+
