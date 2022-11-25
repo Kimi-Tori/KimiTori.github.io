@@ -1,0 +1,131 @@
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+}
+.header-top {
+    background-color: #f3f4f4;
+}
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.container-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+}
+.logo {
+    width: 219px;
+}
+.contact {
+    display: flex;
+}
+.contact-link {
+    color: $main;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 10px;
+    letter-spacing:normal
+}
+.social-ico {
+    width: 30px;
+    height: 30px;
+    fill: #9fcb8f;
+
+    &:hover {
+        fill: $hover-ico;
+    }
+}
+.header-bottom {
+    border-bottom: 1px solid $main;
+    background-color: $white;
+}
+.container-home-bottom {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav {
+    display: flex;
+}
+.link-opened {
+    position: relative;
+}
+.nav-link-block {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 0 15px;
+    font-size: 16px;
+    &:hover > .link-opened ~ .nav-bar-opened {
+        display: flex;
+    }
+    &:first-child {
+        margin: 0 15px 0 0;
+    }
+}
+.nav-bar-opened {
+    display: none;
+    position: absolute;
+    top: 115px;
+    flex-direction: column;
+    z-index: 999;
+    background-color: #fff;
+    border: 1px solid rgb(180, 180, 180);
+    width: 225px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 9px 1px;
+}
+.nav-bar-opened-link {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 15px;
+    &:hover {
+        background-color: #f3fbef;
+    }
+}
+.bar-opened-last {
+    width: 230px;
+}
+.nav-link {
+    text-decoration: none;
+    color: $main-black;
+    font-weight: 500;
+}
+.arrow-ico {
+    width: 12px;
+    height: 12px;
+    stroke: $main;
+    margin-left: 8px;
+}
+.main-link,
+.main-ico {
+    color: $main;
+    fill: $main;
+    font-weight: 800;
+}
+.get__btn {
+    text-transform: uppercase;
+    background-color: $btn-purple;
+    padding: 12px 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    &:hover {
+        background-color: $main;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        position: static;
+    }
+}
