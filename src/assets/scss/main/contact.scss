@@ -1,0 +1,189 @@
+// contact block =====
+.communication .main {
+    background-color:#f3fbef;
+    margin-top: 130px;
+    padding-top: 65px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.communication .main-block {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 7%) 0px 8px 32px 8px;
+    padding: 40px;
+}
+.communication .main__subtitle {
+    font-size: 40px;
+    line-height: 1.3em;
+    font-weight: 600;
+}
+.communication .main__title {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin-bottom: 40px;
+}
+.contact-person-block {
+    display: flex;
+}
+.contact-person-flex {
+    min-width: 45%;
+    padding-right: 20px;
+}
+.person__title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+}
+.person-identity {
+    display: flex;
+    padding: 15px;
+    padding-left: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+.person-content,
+.person-data {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.person-name {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.75;
+}
+.person-job,
+.person-email,
+.person-phone {
+    display: flex;
+    align-items: center;
+}
+.personal-img-box {
+    width: 160px;
+    height: 140px;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.personal-box1 {
+    background-image: url(../img/person1.webp);
+    background-size: cover;
+    background-position: center;
+}
+.personal-box2 {
+    background-image: url(../img/person2.webp);
+    background-size: cover;
+    background-position: center;
+}
+.personal-box3 {
+    background-image: url(../img/person3.webp);
+    background-size: cover;
+    background-position: center;
+}
+.connection-ico {
+    width: 20px;
+    height: 20px;
+    fill: $main;
+    margin-right: 20px;
+}
+.contact-information-link {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 2.3em;
+    font-weight: 400;
+    color: #000;
+}
+
+.contact-connection {
+    min-width: 50%;
+}
+.connection__subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.75;
+}
+.connection-box {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px 35px 25px;
+    box-shadow: rgb(0 0 0 / 6%) 0px 2px 33px 0px;
+}
+.connection-input {
+    padding: 14px;
+    border: 1px solid #58ac35;
+    background-color: #f6f6f6;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    color: #000;
+    resize: vertical;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    &::placeholder {
+        color: #8d8d8d;
+    }
+}
+.connection-message {
+    min-height: 80px;
+}
+.connection-btn {
+    background-color: $main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 16px;
+    position: relative;
+    &:hover {
+        background-color: #7ab14c;
+    }
+}
+.connection-btn-ico {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 16px;
+    fill: #fff;
+}
+.connection__title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 40px;   
+}
+
+@media (max-width: 1024px) {
+    .person__title br {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .communication .main {
+        margin-top: 0;
+    }
+    .contact-person-block {
+        flex-direction: column;
+    }
+    .communication .main-block {
+        margin: 0 40px;
+    }
+}
