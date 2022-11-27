@@ -136,6 +136,7 @@
     font-weight: 600;
     line-height: 1.75;
     color: $main;
+    margin-bottom: 10px;
 }
 .team__title {
     font-size: 18px;
@@ -143,5 +144,38 @@
     line-height: 1.75;
     & > span {
         font-weight: 600;
+    }
+}
+
+@media (max-width: 1024px) {
+    .team .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .team .intro-img {
+        max-width: 435px;
+    }
+    .team-img-block {
+        min-width: 360px;
+    }
+}
+@media (max-width: 768px) {
+    .team .intro {
+        margin-top: 0;
+    }
+    .intro-block {
+        padding-left: 0;
+    }
+    .team .intro-img {
+        display: none;
+    }
+    .team-box {
+        flex-direction: column;
+    }
+    .team-text-box {
+        padding: 10px 0;
+    }
+    .team-box {
+        box-shadow: none;
     }
 }
