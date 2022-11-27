@@ -1,0 +1,147 @@
+// itro block ======
+.team .intro {
+    background-color: #f5fcf2;
+    margin-top: 130px;
+}
+.team .intro-block {
+    justify-content: space-between;
+}
+.team .intro-text-block {
+    max-width: 650px;
+}
+.team .intro__subtitle {
+    font-size: 50px;
+    color: $main;
+    font-weight: 800;
+    line-height: 1.15em;
+    text-align: start;
+}
+.team .intro__title {
+    text-align: start;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 1.4em;
+    max-width: 650px;
+}
+.team .intro-img {
+    margin-top: -100px;
+    max-width: 580px;
+    max-height: 550px;
+}
+
+// about block ======
+.about {
+    padding-bottom: 20px;
+    background-color: #f5fcf2;
+}
+.about-block {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-color: #fff;
+    border-radius: 0 0 0 150px;
+}
+.about__subtitle {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.75;
+    text-align: center;
+    margin: 0 55px;
+}
+.about-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 40px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 12px 0px;
+}
+.about-content {
+    max-width: 255px;
+    padding: 0 80px;
+    border-left: 1px solid rgb(241,241,241);
+    &:last-child {
+        border-right: 1px solid rgb(241,241,241);
+    }
+}
+.about__title {
+    font-size: 24px;
+    color: $main;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-align: center;
+}
+.about__text {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.5em;
+    text-align: center;
+}
+.team-main {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.team-box {
+    display: flex;
+    margin-bottom: 50px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 5px 12px 2px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+.team-img-block {
+    min-width: 480px;
+    min-height: 475px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.team-img-block1 {
+    background-image: url(../img/team-img1.jpg);
+}
+.team-img-block2 {
+    background-image: url(../img/team-img2.jpg);
+}
+.team-img-block3 {
+    background-image: url(../img/team-img3.jpg);
+}
+.team-mail-box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.team-mail-box {
+    background-color: #f5fcf2;
+    padding: 20px;
+}
+.team-ico {
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+    background-color: $main;
+    border-radius: 50%;
+    fill: $main;
+    &:hover {
+        background-color: #93c87c;
+        fill: #93c87c;
+    }
+}
+.team-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 60px;
+}
+.team__subititle {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.75;
+    color: $main;
+}
+.team__title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.75;
+    & > span {
+        font-weight: 600;
+    }
+}
