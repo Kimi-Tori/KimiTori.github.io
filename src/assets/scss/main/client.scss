@@ -1,0 +1,60 @@
+// intro block =====
+.clients .intro {
+    background-color: #f5fcf2;
+    margin-top: 130px;
+}
+.clients .intro-block {
+    justify-content: space-between;
+}
+.clients .intro-text-block {
+    max-width: 770px;
+}
+.clients .intro__subtitle {
+    font-size: 50px;
+    color: $main;
+    font-weight: 800;
+    line-height: 1.15em;
+    text-align: start;
+}
+.clients .intro__title {
+    text-align: start;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.4em;
+    max-width: 770px;
+}
+.clients .intro-img {
+    max-width: 370px;
+    max-height: 550px;
+}
+
+// partners block =======
+.clients .partners {
+    padding-bottom: 60px;
+    border-bottom: none;
+    border-top: none;
+}
+.partners__title {
+    text-align: center;
+    margin-bottom: 34px;
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+@media (max-width: 1024px) {
+    .clients .recomendations-box {
+        width: 95%;
+    }
+}
+@media (max-width: 768px) {
+    .clients .intro {
+        margin-top: 0;
+    }
+    .clients .intro-img {
+        display: none;
+    }
+    .clients .intro-block {
+        padding: 20px 20px;
+    }
+}
