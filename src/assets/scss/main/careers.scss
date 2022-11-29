@@ -1,0 +1,61 @@
+.careers > .intro {
+    background: url(../img/intro-bg.png);
+    background-color: #f7fcf3;
+    padding-top: 130px;
+    margin-top: 0;
+    background-size: cover;
+}
+.careers .intro-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 175px;
+    padding-bottom: 75px;
+}
+
+.careers .marketing {
+    background-color: #fff;
+}
+.careers .marketing__title,
+.careers .marketing__subtitle {
+    text-align: left;
+    max-width: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.careers .marketing__subtitle {
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.careers .marketing-card-block {
+    margin-top: 20px;
+}
+.careers .marketing-box {
+    display: block;
+}
+.careers .marketing-card {
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.careers .marketing-card__subtitle {
+    margin-bottom: 0;
+}
+.careers .marketing-card__link {
+    line-height: -0.7px;
+}
+.marketing-signature {
+    font-size: 14px;
+    color: rgb(48,48,48);
+    font-weight: 600;
+}
+.marketing-btn-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
