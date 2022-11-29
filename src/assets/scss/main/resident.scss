@@ -1,0 +1,81 @@
+.resident > .intro {
+    background: url(../img/resident-intro.webp);
+    background-color: #f7fcf3;
+    padding-top: 130px;
+    margin-top: 0;
+    background-size: cover;
+}
+.resident .intro-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 175px;
+    padding-bottom: 75px;
+}
+.resident .intro__title {
+    max-width: none;
+}
+
+.resident .main {
+    background-color: #fff;
+    padding: 60px 0;
+}
+.resident .main-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resident .main__subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+.resident .main__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+.resident .main-button {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2em;
+    padding: 12px 75px;
+    background-color: $main;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover {
+        background-color: $btn-purple;
+    }
+}
+.resident .main-img {
+    max-width: 460px;
+    margin-left: 75px;
+}
+
+@media (max-width: 1024px) {
+    .resident .container {
+        padding: 0 40px;
+    }
+    .resident .main-img {
+        max-width: 370px;
+    }
+}
+@media (max-width: 768px) {
+    .resident .intro-block {
+        padding-top: 0;
+    }
+    .resident .main-img {
+        display: none;
+    }
+    .resident .main-button {
+        display: flex;
+        justify-content: center;
+    }
+    .resident .intro__title {
+        font-size: 20px;
+    }
+}
