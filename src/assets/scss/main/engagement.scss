@@ -1,0 +1,97 @@
+.engagement > .intro {
+    background: url(../img/intro-bg.png);
+    background-color: #f7fcf3;
+    padding-top: 130px;
+    margin-top: 0;
+    background-size: cover;
+    margin-left: 50px;
+}
+.engagement .intro-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 175px;
+    padding-bottom: 75px;
+}
+.engagement .intro__title {
+    max-width: 510px;
+}
+
+.engagement .main {
+    background-color: #fff;
+    padding: 60px 0;
+}
+.engagement .main-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.engagement .main-block-text {
+    max-width: 465px;
+}
+.engagement .main__subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+.engagement .main__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+.engagement .main-button {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2em;
+    padding: 12px 75px;
+    background-color: $main;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover {
+        background-color: $btn-purple;
+    }
+}
+.engagement-main {
+    background-color: $bg-block;
+    padding: 20px 50px 10px 20px;
+}
+.engagement-main-position {
+    display: flex;
+    margin-bottom: 20px;
+}
+.engagement-ico {
+    min-width: 18px;
+    max-width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    margin-right: 10px;
+    fill: $btn-purple;
+}
+.engagement-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2.3em;
+
+}
+
+@media (max-width: 1024px) {
+    .engagement .container {
+        padding: 0 40px;
+    }
+}
+@media (max-width: 768px) {
+    .engagement .intro-block {
+        padding-top: 0;
+    }
+    .engagement .main-button {
+        display: flex;
+        justify-content: center;
+    }
+    .engagement .intro__title {
+        font-size: 20px;
+    }
+}
