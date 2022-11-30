@@ -1,0 +1,124 @@
+.talent {
+    background: url(../img/talent-intro.webp);
+    background-color: #f7fcf3;
+    padding-top: 130px;
+    margin-top: 0;
+    background-size: cover;
+    background-position: 0 -200px;
+}
+.talent .intro-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 175px;
+    padding-bottom: 75px;
+}
+.talent  .intro__title {
+    max-width: 720px;
+}
+
+.recruitment {
+    margin: 100px 0;
+}
+.recruitment-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.recruitment__subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+.recruitment__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-bottom: 30px;
+}
+.recruitment-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $main;
+    color: #fff;
+    border: 2px solid $main;
+    text-decoration: none;
+    padding: 18px 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: -5px;
+    &:hover {
+        background-color: #fff;
+        color: $main;
+    }
+}
+
+.dop-block__title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-bottom: 30px;
+    & span {
+        color: $main;
+        font-weight: 600;
+    }
+}
+.value .shoping-main {
+    background-color: #f5f2f8 ;
+    height: 100%;
+}
+.value-main .shoping-main {
+    height: 100%;
+}
+
+.down-block .recruitment-block {
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+}
+.hidden-block {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .talent {
+        padding-top: 0;
+        background-position: top;
+    }
+    .recruitment-block {
+        align-items: center;
+    }
+    .recruitment-img {
+        max-width: 445px;
+    }
+    .container-padding {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .recruitment-img {
+        display: none;
+    }
+    .recruitment-block {
+        flex-direction: column;
+    }
+    .recruitment-block-right {
+        width: 100%;
+    }
+    .hidden-block {
+        display: flex !important;
+        justify-content: center;
+        display: block;
+    }
+    .dop {
+        margin-bottom: 50px;
+    }
+    .down-block .recruitment-block-right {
+        display: none;
+    }
+}
