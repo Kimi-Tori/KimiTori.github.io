@@ -1,0 +1,186 @@
+.sales-intro {
+    background: url(../img/sales-intro.webp);
+    background-color: #f7fcf3;
+    padding-top: 130px;
+    margin-top: 0;
+    background-size: cover;
+}
+.sales-intro .intro-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 175px;
+    padding-bottom: 75px;
+}
+.sales-intro  .intro__title {
+    max-width: 870px;
+}
+
+.sales-main {
+    background-color: #fff;
+    padding: 95px 0;
+}
+.sales-main .main-block {
+    display: flex;
+    justify-content: space-between;
+}
+.sales-main .main-block-text {
+    max-width: 590px;
+}
+
+.sales-main .engagement-main {
+    padding: 40px 50px 10px 40px;
+}
+.sales-main .main__subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+.sales-main .main__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+.engagement-preview {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.sales-main .get__btn {
+    background-color: $main;
+    &:hover {
+        background-color: $btn-purple;
+    }
+}
+
+.sales-contact .main__subtitle {
+    max-width: 595px;
+    font-size: 28px;
+}
+.sales-contact .person__title {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0;
+    line-height: 1.75;
+}
+
+.sales-contact .connection-box {
+    box-shadow: none;
+    background-color: $bg-block;
+}
+.connection__subtitle-sales {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.75;
+    margin-bottom: 30px;
+    color: rgb(82,38,136);
+}
+.connection__title-sales {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-bottom: 30px;
+}
+.connection__text-sales {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.75;
+    margin-bottom: 10px;
+}
+.sales-contact .connection-btn {
+    letter-spacing: 4px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 6px 0px;
+}
+
+.sales-down-block .recruitment-img {
+    max-width: 600px;
+}
+
+.sales-about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sales-about .about-preview {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.4em;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.sales-about .about__subtitle {
+    text-align: start;
+    margin-bottom: 30px;
+    font-size: 18px;
+    max-width: 900px;
+}
+.sales-about .about__text {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+    margin: 0 55px;
+    max-width: 900px;
+    & span {
+        font-weight: 600;
+        color: $main;
+    }
+}
+
+.note {
+    background-color: #f3fbef;
+    padding: 100px 0;
+    margin-top: 100px;
+}
+.note-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 175px;
+}
+.note-preview {
+    text-transform: uppercase;
+    color: $main;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.75;
+    margin-bottom: 10px;
+}
+.note__subtitle {
+    font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.note__text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1024px) {
+    .sales-container {
+        padding: 0 40px;
+    }
+    .sales-main .main-block-text {
+        max-width: 435px;
+    }
+    .sales-contact .main__subtitle {
+        margin-bottom: 10px;
+    }
+    .note-block {
+        margin: 0;
+    }
+}
+@media (max-width: 768px) {
+    .sales-main .main-block-text {
+        max-width: 350px;
+    }
+    .sales-main {
+        padding: 50px 0;
+    }
+    .sales-hidden-img {
+        max-width: 630px;
+    }
+}
