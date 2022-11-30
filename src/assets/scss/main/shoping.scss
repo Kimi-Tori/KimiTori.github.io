@@ -1,0 +1,131 @@
+.shoping > .intro {
+    background: url(../img/shoping-intro.webp);
+    background-color: #f7fcf3;
+    padding-top: 130px;
+    margin-top: 0;
+    background-size: cover;
+}
+.shoping .intro-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 175px;
+    padding-bottom: 75px;
+}
+.shoping .intro__title {
+    max-width: 510px;
+}
+
+.shoping .main {
+    background-color: #fff;
+    padding: 60px 0;
+}
+.shoping .main-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-block-text {
+    margin-right: 30px;
+}
+.shoping .main__subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+.shoping .main__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+.shoping .main-button {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2em;
+    padding: 12px 75px;
+    background-color: $main;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover {
+        background-color: $btn-purple;
+    }
+}
+.shoping-main {
+    background-color: $bg-block;
+    padding: 20px 50px 10px 20px;
+    margin-bottom: 30px;
+}
+.shoping-main-position {
+    display: flex;
+    margin-bottom: 20px;
+}
+.shoping-ico {
+    min-width: 18px;
+    max-width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    margin-right: 10px;
+    fill: $btn-purple;
+}
+.shoping-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2.3em;
+}
+.shoping-img {
+    max-width: 555px;
+}
+
+.dop {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.dop-block__subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-bottom: 30px;
+}
+.dop-container {
+    display: flex;
+    flex-direction: row;
+}
+.block-right {
+    margin-left: 15px;
+}
+.dop-flex-block {
+    display: flex;
+    justify-content: center;
+}
+.dop-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 18px 24px;
+    border: 2px solid $main;
+    color: #fff;
+    background-color: $main;
+    &:hover {
+        background-color: #fff;
+        color: $main;
+    }
+}
+
+@media (max-width: 1024px) {
+    .shoping .container {
+        padding: 0 30px;
+    }
+    .shoping-img {
+        max-width: 410px;
+    }
+}
+@media (max-width: 768px) {
+    .shoping-img {
+        display: none;
+    }
+}
