@@ -1,0 +1,132 @@
+.marketing-intro {
+    background: url(../img/marketing-intro.webp);
+    background-color: #f7fcf3;
+    padding-top: 130px;
+    margin-top: 0;
+    background-size: cover;
+}
+.marketing-intro .intro-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 175px;
+    padding-bottom: 75px;
+}
+.marketing-intro  .intro__title {
+    max-width: 870px;
+}
+
+.engagement__text-bottom {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 1.75;
+}
+.marketin-main .engagement-main {
+    padding: 40px 50px 30px 40px;
+}
+.marketin-main .get__btn {
+    padding: 12px 35px;
+}
+
+.material-block {
+    display: flex;
+}
+.material-block-left {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    background-color: #f3fbef;
+    margin-right: 70px;
+}
+.material-block-img {
+    max-width: 390px;
+    max-height: 390px;
+}
+.material__subtitle {
+    font-size: 28px;
+    line-height: 1.4em;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.material__title {
+    font-size: 18px;
+    line-height: 1.75;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.material-button-block {
+    border: 1px solid rgb(82,38,136);
+}
+.material-button {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    color: rgb(82,38,136);
+    line-height: 1.2em;
+    font-weight: 600px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+        color: $main;
+        & > .material-button-ico {
+            fill: $main;
+        }
+    }
+}
+.material-button-ico {
+    width: 15px;
+    height: 15px;
+    fill: rgb(82,38,136);
+    margin-right: 10px;
+}
+.material-hidden-block {
+    padding: 0 30px;
+    display: none;
+}
+.material-block-text {
+    margin: 10px 0;
+    display: flex;
+    &:first-child {
+        margin-top: 20px;
+    }
+}
+.material-ico {
+    min-width: 16px;
+    min-height: 16px;
+    max-width: 16px;
+    max-height: 16px;
+    margin-top: 10px;
+    fill: $main;
+    margin-right: 10px;
+}
+.material-hiddent__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2.3em;
+}
+.material-button-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-top: 20px;
+}
+
+.marketing-recruitment .recruitment-block {
+    flex-direction: row;
+}
+.marketing-recruitment .recruitment-img {
+    max-width: 370px;
+}
+.marketing-recruitment .recruitment-block-right {
+    padding-left: 70px;
+}
+.marketing-recruitment .recruitment-block-left {
+    max-width: 660px;
+}
