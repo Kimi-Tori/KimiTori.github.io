@@ -1,0 +1,44 @@
+.analysis-block .recruitment-img {
+    max-width: 550px;
+}
+.analysis-block .get__btn {
+    padding: 10px 30px;
+    background-color: $main;
+    &:hover {
+        background-color: $btn-purple;
+    }
+}
+.analysis-block .recruitment-block-left {
+    margin-left: 40px;
+}
+
+.analysis-material .material-block-left {
+    background-color: #fff;
+}
+.analysis-material {
+    padding-bottom: 50px;
+}
+
+.analysis-material-reverse .material-block {
+    flex-direction: row-reverse;
+    margin: 50px 0;
+}
+.analysis-material-reverse .material-block-left {
+    margin-left: 40px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.material-block-left__subtitle {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.4em;
+    color: $main;
+    margin-bottom: 10px;
+}
+.material-block-left__title {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: $main;
+}
