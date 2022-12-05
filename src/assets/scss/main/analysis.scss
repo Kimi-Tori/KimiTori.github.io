@@ -42,3 +42,25 @@
     line-height: 1.4em;
     color: $main;
 }
+@media (max-width: 1024px) {
+    .container-padding-analysis {
+        padding: 0 20px;
+    }
+}
+@media (max-width: 768px) {
+    .material-block-left {
+        margin-right: 0;
+    }
+    .material-block-img {
+        max-width: 245px;
+    }
+    .material-block-left__subtitle {
+        font-size: 40px;
+    }
+    .material-block-left__title {
+        font-size: 20px;
+    }
+    .marketing-intro {
+        padding-top: 0;
+    }
+}

@@ -1,0 +1,36 @@
+.digital-intro {
+    background: url(../img/digital-intro.webp);
+    background-color: #f7fcf3;
+    padding-top: 130px;
+    margin-top: 0;
+    background-size: cover;
+}
+.digital-intro .intro-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 175px;
+    padding-bottom: 75px;
+}
+.digital-intro  .intro__title {
+    max-width: 870px;
+}
+
+.digital-preview {
+    background-color: $main;
+    padding: 50px 0;
+}
+.digital-preview__subtitle {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+.digital-preview__title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.75;
+}
