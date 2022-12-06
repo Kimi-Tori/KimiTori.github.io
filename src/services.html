@@ -124,6 +124,19 @@
         <symbol viewBox="0 0 24 24" id="finance">
             <path d="M6,16.5L3,19.44V11H6M11,14.66L9.43,13.32L8,14.64V7H11M16,13L13,16V3H16M18.81,12.81L17,11H22V16L20.21,14.21L13,21.36L9.53,18.34L5.75,22H3L9.47,15.66L13,18.64"></path>
         </symbol>
+
+        <symbol viewBox="0 0 212.982 212.982" id="burgerClose">
+            <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M131.804,106.491l75.936-75.936c6.99-6.99,6.99-18.323,0-25.312
+		    c-6.99-6.99-18.322-6.99-25.312,0l-75.937,75.937L30.554,5.242c-6.99-6.99-18.322-6.99-25.312,0c-6.989,6.99-6.989,18.323,0,25.312
+		    l75.937,75.936L5.242,182.427c-6.989,6.99-6.989,18.323,0,25.312c6.99,6.99,18.322,6.99,25.312,0l75.937-75.937l75.937,75.937
+		    c6.989,6.99,18.322,6.99,25.312,0c6.99-6.99,6.99-18.322,0-25.312L131.804,106.491z"/>
+        </symbol>
+
+        <symbol viewBox="0 0 48 48" id="burgerOpenIco">
+            <path d="M7.94977 11.9498H39.9498" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7.94977 23.9498H39.9498" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7.94977 35.9498H39.9498" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
     </svg>
 
     <header class="header">
@@ -148,6 +161,54 @@
         <div class="header-bottom">
             <div class="container">
                 <div class="container-home-bottom">
+                    <div class="header-burger-block">
+                        <svg class="burger-open" id="burgerOpen">
+                            <use xlink:href="#burgerOpenIco"></use>
+                        </svg>
+                        <svg class="burger-close" id="burgerClose">
+                            <use xlink:href="#burgerClose"></use>
+                        </svg>
+                        <div class="burger-position" id="burgerBlock">
+                            <div class="burger-nav" id="burgerNavFirst">
+                                <a href="#" class="nav-link main-link link-opened link-opened-burger">
+                                    Services
+                                    <svg class="arrow-ico main-ico main-ico-burger">
+                                        <use xlink:href="#arrow"></use>
+                                    </svg>
+                                </a>
+                                <div class="burger-bar-opened" id="burgerMainFirst">
+                                    <a href="#" class="nav-bar-opened-link">Research & Analysis</a>
+                                    <a href="#" class="nav-bar-opened-link">Marketing Services</a>
+                                    <a href="#" class="nav-bar-opened-link">Digital Marketing</a>
+                                    <a href="#" class="nav-bar-opened-link">Sales Support</a>
+                                    <a href="#" class="nav-bar-opened-link">Talent Acquisition</a>
+                                    <a href="#" class="nav-bar-opened-link">Mystery Shopping</a>
+                                    <a href="#" class="nav-bar-opened-link">Engagement Surveying</a>
+                                    <a href="#" class="nav-bar-opened-link">Resident Decanting</a>
+                                </div>
+                            </div>
+                            <div class="burger-nav" id="burgerNavTwo">
+                                <a href="#" class="nav-link link-opened link-opened-burger">
+                                    About
+                                    <svg class="arrow-ico main-ico-burger">
+                                        <use xlink:href="#arrow"></use>
+                                    </svg>
+                                </a>
+                                <div class="burger-bar-opened" id="burgerMainTwo">
+                                    <a href="#" class="nav-bar-opened-link">Meet the Team</a>
+                                    <a href="#" class="nav-bar-opened-link">Clients and Testimonials</a>
+                                    <a href="#" class="nav-bar-opened-link">Contact Us</a>
+                                </div>
+                            </div>
+                            <div class="burger-nav nav-link-block link-opened-burger" id="burgerNav">
+                                <a href="#" class="nav-link">Careers</a>
+                            </div>
+    
+                            <div class="burger-nav nav-link-block link-opened-burger" id="burgerNav">
+                                <a href="#" class="nav-link">Blog</a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="header-nav">
                         <div class="nav-link-block">
                             <a href="#" class="nav-link main-link link-opened">
