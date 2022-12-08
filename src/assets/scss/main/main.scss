@@ -573,6 +573,9 @@
     font-size: 14px;
     font-weight: 400;
 }
+.partners-dop-img {
+    display: none;
+}
 
 // adaptive =====
 @media (max-width: 1220px) {
@@ -837,6 +840,139 @@
     }
 }
 
-@media (max-width: 700px) {
-    
+@media (max-width: 425px) {
+    .intro {
+        margin-top: 25px;
+    }
+    .intro-title {
+        font-size: 30px;
+    }
+    .intro-subtitle {
+        font-size: 24px;
+    }
+    .recognize__img  {
+        max-width: 420px;
+    }
+    .recomendations-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-top, .footer-bottom {
+        flex-direction: column;
+    }
+    .btn {
+        max-width: 385px;
+    }
+    .main .container {
+        padding: 0 20px;
+    }
+    .logo {
+        max-width: 145px;
+    }
+    .social-ico {
+        display: none;
+    }
+    .contact-link {
+        font-size: 16px;
+    }
+    .partners-dop-img {
+        display: block;
+        max-width: 420px;
+        filter: grayscale(1);
+    }
+    .partners__img-block {
+        display: none;
+    }
+    .offer-block {
+        flex-direction: column;
+    }
+    .offer-note-box {
+        max-width: 405px;
+        margin-left: 0;
+    }
+    .img-box {
+        width: 375px;
+    }
+    .story-block {
+        padding: 0;
+    }
+    .story-subtitle {
+        font-size: 27px;
+    }
+    .story-text-block {
+        padding: 30px;
+        flex-direction: column;
+    }
+    .story-text {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .story__link {
+        font-size: 18px;
+    }
+    .plan-icon-block {
+        align-items: center;
+        flex-direction: column;
+    }
+    .plan-icon-box {
+        width: 100%;
+    }
+    .plan-subtitle {
+        font-size: 30px;
+    }
+    .plan-title {
+        font-size: 18px;
+    }
+    .plan {
+        padding: 50px 20px 50px 20px;
+    }
+    .recomendations-container {
+        max-width: 325px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .footer-data, .footer-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .contact-link {
+        font-size: 16px;
+    }
+    .partners-dop-img {
+        max-width: 370px;
+    }
+    .nav-link-block {
+        font-size: 12px;
+    }
+    .recognize__img {
+        max-width: 370px;
+    }
+    .img-box {
+        width: 340px;
+    }
+}
+@media (max-width: 320px) {
+    .contact-link {
+        font-size: 16px;
+    }
+    .partners-dop-img {
+        max-width: 315px;
+    }
+    .img-box {
+        width: 280px;
+    }
+    .recognize__img {
+        max-width: 310px;
+    }
+    .marketing-card {
+        max-width: 240px;
+    }
+    .recomendations-block-subtitle {
+        font-size: 24px;
+    }
+    .nav-link-block {
+        font-size: 11px;
+    }
 }
