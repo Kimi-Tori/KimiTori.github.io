@@ -63,4 +63,33 @@
     .marketing-intro {
         padding-top: 0;
     }
+    .analysis-material-reverse .material-block-left {
+        display: none;
+    }
+}
+@media (max-width: 425px) {
+    .material-block {
+        flex-direction: column;
+    }
+    .analysis-block .recruitment-block-left {
+        margin: 0;
+    }
+    .marketing-intro .intro-block {
+        padding-top: 35px;
+    }
+}
+
+@media (max-width: 325px) {
+    .intro__subtitle {
+        font-size: 32px;
+    }
+    .intro__title {
+        font-size: 18px;
+    }
+    .container-padding {
+        padding: 0 20px;
+    }
+    .analysis-material-reverse .material-block-left {
+        padding: 20px;
+    }
 }
