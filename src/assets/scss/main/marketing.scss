@@ -130,3 +130,46 @@
 .marketing-recruitment .recruitment-block-left {
     max-width: 660px;
 }
+@media (max-width: 425px) {
+    .intro__subtitle {
+        font-size: 37px;
+    }
+    .intro__title {
+        font-size: 18px;
+    }
+    .sales-main .main-block {
+        flex-direction: column;
+    }
+    .material-block-left {
+        justify-content: center;
+    }
+    .material-block {
+        padding: 0 20px;
+    }
+    .partnership__subtitle {
+        font-size: 18px;
+    }
+    .partnership-block {
+        padding: 30px 0 50px 0;
+    }
+    .partnership-name {
+        font-size: 13px;
+    }
+    .partnership__title,
+    .partnership-text,
+    .nav-link-block {
+        font-size: 12px !important;
+    }
+    .marketin-main .get__btn {
+        padding: 10px 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .engagement-main-position {
+        margin-bottom: 5px;
+    }
+    .sales-main {
+        padding: 30px 0;
+    }
+}
